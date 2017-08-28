@@ -1,0 +1,19 @@
+Using Git
+
+Install Git somehow into your OS
+
+Configure Git
+git config --global user.name "username"
+git config --global user.name "email"
+
+Create a readme.md file
+#Go project directory
+echo "# learning" >> README.md
+
+
+#Initialise git in project directory
+git init
+#Add file to system git created by git init
+git commit -m "first comment"
+git remote add origin "gitaddress"
+git push -u origin master
