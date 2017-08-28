@@ -7,6 +7,9 @@
 #email
 >$ git config --global user.email "[user email]"
 
+#to ignore some files and folders
+#crete a file called .gitignore
+#add files or directories to the .gitignore file
 
 
 
@@ -21,6 +24,9 @@ SOME BASIC GIT COMMANDS
 
 #or add all files
 ># git add *
+
+#remove a file from git
+>$ git rm --cached [filename]
 
 #check the status of git 
 >$ git status
