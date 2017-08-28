@@ -1,0 +1,42 @@
+#check your git version
+>$ git --version
+
+#configure git
+#username
+>$ git config --global user.name "[user name]"
+#email
+>$ git config --global user.email "[user email]"
+
+
+
+
+
+SOME BASIC GIT COMMANDS
+
+#initialise a local git repository
+>$ git init
+
+#add files to a indes
+>$ git add [filename]
+
+#or add all files
+># git add *
+
+#check the status of git 
+>$ git status
+
+#commit the changes made to a git index
+>$ git commit
+
+#or add a comment while committing
+>$ git commit -m "some comment added here"
+
+#add file in local index to remore repository
+>$ git push
+
+#download remote files from repository
+>$ git pull
+
+#clone a repository into a new local directory
+>$ git clone
+
