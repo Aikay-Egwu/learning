@@ -1,0 +1,51 @@
+# Git site www.get-scm.com
+#install git on linux 
+$ apt-get install git
+
+#check git version on computer
+$ git --version
+
+
+#set up git
+git config --global user.name
+git config --global user.email
+
+#check the system git settings
+$git config --list
+
+#to get get in git
+git help <verb>
+git <verb> help
+
+#to inititalse a project to use git
+$ git init
+
+# to stop tracking a project with git
+$ rm -rf .git
+
+#to check the status of a git project
+$ git status
+
+#to ask git to ignore files
+$ touch .gitignore
+
+#to add the saved files
+$ git add -A
+
+#to remove a file from the staging area
+$ git reset <filename>
+
+#to remove all the files from the staging area
+$git reset
+
+#to commit files 
+$ got commit -m "A message"
+
+#to check the log of commits
+$ git log
+
+
+
+
+
+

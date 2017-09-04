@@ -1,0 +1,30 @@
+#Install Composer
+
+
+#Install laravel using composer
+composer global require "laravel/installer"
+
+#Set the path to composer for global access
+echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
+source .bashrc
+echo $PATH
+
+#Removing an application
+rm -rf {name}
+
+
+#install a development version
+laravel new {name} --dev
+
+#starting the server
+php artisan serve
+
+#if error on starting server
+$ laravel update or
+$laravel install or
+sudo apt-get install php-mbstring php-dom
+#then laravel update
+
+
+#checking version 
+php artisan -V

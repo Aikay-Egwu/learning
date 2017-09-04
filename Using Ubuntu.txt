@@ -1,0 +1,37 @@
+Using Ubuntu
+
+Change file permission
+Open Terminal
+Change Command: sudo su
+Go to path: chmod a+rwx <path> or filename
+or
+sudo chmod 577 {path}
+
+Making a file executable
+chmod u+x <filename>
+
+Unzipping a tar.gz
+
+gzip -d <filename.tar.gz>
+tar xvf <filename.tar>
+after a .run file is created
+./<filename.run>
+
+
+Getting stuff online
+wget -c https://....
+
+
+Install Files
+To install a .run and .bundle file
+Enter: ./<filename>
+
+Get menu bar to appear
+sudo apt-get install --reinstall indicator-appmenu
+or
+initctl restart unity-panel-service
+
+
+.deb files
+sudo dpkg -i filename
+

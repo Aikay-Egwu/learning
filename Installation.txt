@@ -1,0 +1,104 @@
+New Ubuntu
+
+Installl Sublime
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+
+Install Chrome
+Goto chrome site
+vihttps://vivaldi.com/
+
+Install LAMP
+sudo apt-get update && sudo apt-get upgrade
+
+sudo apt-get install apache2
+sudo apt-get install mysql-server
+
+sudo apt-get install php5 libapache2-mod-php5
+sudo apt-get install php7.0 php-pear libapache2-mod-php7.0 php7.0-mysql
+apt-get -y install php7.0 libapache2-mod-php7.0
+
+cURL, JSON, and CGI support
+sudo apt-get install php7.0-curl php7.0-json php7.0-cgi
+
+sudo /etc/init.d/apache2 restart
+sudo systemctl restart apache2
+
+Create the log directory for PHP and give ownership to the Apache system user:
+sudo mkdir /var/log/php
+sudo chown www-data /var/log/php
+
+install python
+Update system
+    sudo apt-get update
+    sudo apt-get -y upgrade   {-y all items be installed}
+
+Python pip
+sudo apt-get install -y python3-pip
+
+
+Install Dropbox
+Install Vlc Player
+Install FIleZilla
+
+Install Tweak Tool
+sudo apt-get install unity-tweak-tool
+For unity-tweak tool latest
+sudo add-apt-repository ppa:freyja-dev/unity-tweak-tool-daily
+sudo apt-get update
+sudo apt-get install unity-tweak-tool
+or just download the .deb and install
+
+
+
+Install Mysql Workbench
+Goto site
+
+
+
+
+IDE's
+Atom
+Netbeans
+Eclipse
+PyCharm
+
+PhotoShop
+Windows
+
+
+Ducks
+Cairo Dock - sudo apt-get cairo-dock
+Plank -
+sudo add-apt-repository ppa:ricotz/docky
+sudo apt-get update
+sudo apt-get install plank
+
+Docky
+
+Install classic menu indicator
+google it
+
+
+Google Drive
+stall google drive on ubuntuShell
+
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install grive
+
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install grive
+
+mkdir -p ~/grive
+cd ~/grive
+grive -a
+
+
+Install foxit PDF Browsers
+
+install VMware player
+

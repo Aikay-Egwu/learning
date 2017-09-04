@@ -1,0 +1,40 @@
+#Check virtual environment version
+$ virtualenv --version
+
+#To install virtual environment using pip
+$ sudo pip install virtualenv
+
+#To use virtualenv potentials
+#Make a directory to keep your virtual environments
+$ mkdir [directory_name or path]
+$ cd [directory_name or path]
+
+#You can check the list of packages installed using
+$ pip list
+
+
+#To create a virtual environment using default python install
+$virtualenv [environment_name]
+
+#To create a virtual environment using a specific python installation
+virtualenv -p /usr/bin/python3 [environment_name]
+
+
+#To activate the virtual environment
+$ source [environment_name]/bin/activate
+
+
+#install packages
+pip install [package]
+
+$to use the installed packages to be used in a different environment
+$ pip freexe --local > requirements.txt
+
+#to leave the virtual environment
+$ deactivate
+
+#delete the virtual environment
+$ rm -rf [environment_name]/
+
+#add packages from a different vm using the requirement.txt file
+pip install -r requirements.txt

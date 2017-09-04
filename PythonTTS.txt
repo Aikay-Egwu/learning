@@ -1,0 +1,30 @@
+#PyTTSX
+#install using pip
+
+$ sudo pip install pyttsx
+
+>>> import pyttsx
+>>> engine = pyttsx.init()
+>>> engine.say("Text")
+>>> engine.runAndWait()
+
+
+###Using espeak
+sudo apt-get install espeak
+
+import os
+os.system('espeak', "hello World)
+
+
+###Using the gtts package
+
+$ pip install gTTS
+
+from gtts import gTTS
+import os
+tts = gTTS(text="hello WORLD", LANG="en")
+tts.save("helllo.mp3")
+os.system("mpeg321 hello.mp3")
+
+sudo apt-get install mpeg321
+

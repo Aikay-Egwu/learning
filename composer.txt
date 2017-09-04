@@ -1,0 +1,7 @@
+sudo apt-get update				{run updates}
+sudo apt-get install wget			{install wget if not exist}
+wget https://getcomposer.org.composer.phar	{download composer}
+mv composer.phar composer			{rename composer}
+chmod +x composer				{make file executable}
+./ composer					{install composer}
+sudo mv composer /usr/local/bin			{move composer for global access}

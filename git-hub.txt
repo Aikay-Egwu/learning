@@ -37,6 +37,13 @@ SOME BASIC GIT COMMANDS
 #or add a comment while committing
 >$ git commit -m "some comment added here"
 
+#setup a remote repository
+git remote #lists repositories setup
+#add remote
+git remote add [name] [repo-link]
+#send files to repository
+git push [name] master
+
 #add file in local index to remore repository
 >$ git push
 

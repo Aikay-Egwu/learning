@@ -1,0 +1,21 @@
+Installation
+
+
+
+Restarting
+Try 1
+service apache2 restart
+Try 2
+sudo /etc/init.d/apache2 restart
+
+Activating .htaccess
+Try 1
+sudo /etc/apache2/apache2.conf
+uncomment AccessFileName .htaccess (line 187)
+<Directory /var/www/>
+...AllowOverride None (change None to All)
+<Directory>
+
+Try 2
+sudo a2enmod rewrite
+restart apache

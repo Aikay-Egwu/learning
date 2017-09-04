@@ -1,0 +1,49 @@
+Install python if not exists
+
+Install pip or pip 3
+sudo apt-get update
+sudo apt-get -y install python3-pip
+
+Install django
+sudo pip3 install django
+
+
+Starting a project
+
+Create main project directory or navigate to location
+USE: mkdir {to make directory} or cd {to navigate to directory}
+
+Create the app
+django-admin startporject {project name}
+
+
+Create an app or module {sections of the application}
+python3 manage.py startapp {modules}
+
+
+Start server
+python3 manage.py runserver
+
+
+
+Installing MySQL database-extenstion
+sudo apt-get install python3-mysqldb
+
+Goto to setting and scroll down to databases
+'ENGINE': 'django.db.backends.sqlite3',  {sqllite3 =mysql}
+'NAME': os.path.join(BASE_DIR, 'db.sqlite3'), {NAME':DBNAME}
+'USER':'USERNAME',
+'PASSWORD': 'PASSWORD',
+'HOST': '', {blank is default}
+'PORT':'' {blank is default}
+
+
+Connect the database 
+python3 manage.py migrate
+
+
+
+Create Models
+
+
+
