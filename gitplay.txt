@@ -13,7 +13,7 @@ git config --global user.email
 #check the system git settings
 $git config --list
 
-#to get get in git
+#to get help in git
 git help <verb>
 git <verb> help
 
@@ -44,7 +44,20 @@ $ got commit -m "A message"
 #to check the log of commits
 $ git log
 
+#get a remote project to the system. (.) means current working directory
+git clone <remote url> .
 
+
+#to view the files connected to a remote directory
+git remove -v
+
+#to see changes to made a code
+git diff
+
+
+#Adding changes to a remote repository
+#origin is name of repository, master is name of branch
+git push origin master 
 
 
 
