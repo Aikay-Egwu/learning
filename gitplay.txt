@@ -59,6 +59,12 @@ git diff
 #origin is name of repository, master is name of branch
 git push origin master 
 
+#Adding and connecting to a remote repo
+echo "# fileupload" >> README.md
 
-
+#create a readme file
+#g
+git remote add origin <url>
+git push -u origin master
+#then enter username and password
 
