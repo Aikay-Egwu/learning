@@ -29,3 +29,10 @@
         },
     }
 }
+
+//phpcs settings
+
+{
+    "phpcs_executable_path": "/usr/bin/phpcs",
+    "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+}
